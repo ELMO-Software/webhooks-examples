@@ -1,4 +1,4 @@
-# PHP Webhooks Project
+# Javascript Webhooks Project
 An example of webhooks express nodejs verification process.
 
 # Installation
