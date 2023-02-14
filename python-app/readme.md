@@ -15,7 +15,7 @@ python3 -m venv venv
 || csh/tcsh | source venv/bin/activate.csh |
 | Windows | cmd.exe  | venv\Scripts\activate.bat | 
 || PowerShell | venv\Scripts\Activate.ps1 |
-|
+
 
 3. Install all dependencies.
 ```bash
@@ -26,4 +26,5 @@ pip install -r requirements.txt
 python -m flask --app main run
 ```
 
-Go to 
+5. Add file webhooks-public.cer to the root of your directory
+6. Verify webhook signature passes by sending a payload of a webhook with the elmo-webhook-signature header.
