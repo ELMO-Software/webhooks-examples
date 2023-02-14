@@ -1,5 +1,5 @@
-# Python Webhooks Project
-An example of webhooks python verification process.
+# PHP Webhooks Project
+An example of webhooks PHP verification process.
 
 # Installation
 1. Install all dependencies.
